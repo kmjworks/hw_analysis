@@ -1,0 +1,12 @@
+# Configuration file for the profitability analysis executable
+# Format: key=value (NB! there must be no spaces around =)
+
+# Define the names of the input and output files
+input_file=buslines.txt
+output_file=results.txt
+
+# Output settings (1=enabled, 0=disabled)
+# screen_output - defines whether logging the results to stdout is enabled or not
+# file_output - defines whether logging the results to a external .txt file is enabled or not
+screen_output=1
+file_output=1
